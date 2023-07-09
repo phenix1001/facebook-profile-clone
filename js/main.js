@@ -9,5 +9,7 @@ fileUploadInput.addEventListener('change', function (event) {
         reader.addEventListener('load', function () {
             profilePicture.setAttribute('src', reader.result);
         });
+
+        reader.readAsDataURL(file); // أضفت هذا السطر لقراءة الملف كـ data URL
     }
 });
