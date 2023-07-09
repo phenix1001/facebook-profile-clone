@@ -385,6 +385,12 @@ body {
     height: 130px;
     margin: 0 5px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.main .friend .album img:hover {
+    opacity: 0.9;
 }
 
 .main .friend .album h6 {
