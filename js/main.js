@@ -70,7 +70,7 @@ form.addEventListener('submit', function(event) {
     document.getElementById('input-bio').value = "";
 });
 
-
+/*
 var getPfp = document.getElementById('profile-picture');
 var getStory = document.getElementById('story');
 
@@ -80,3 +80,4 @@ if(getPfp.style.border = '3px solid var(--bs-light)'){
         getPfp.style.outline = '3px solid var(--bs-primary)';
     };
 };
+*/
