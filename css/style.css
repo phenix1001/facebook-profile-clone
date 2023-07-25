@@ -167,6 +167,10 @@ body {
     outline: none;
 }
 
+.main .images-and-btns .buttons button:focus {
+    outline: none;
+}
+
 .main .images-and-btns .buttons button:active {
     transform: scale(0.99);
 }
