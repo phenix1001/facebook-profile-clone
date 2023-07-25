@@ -122,6 +122,8 @@ body {
     width: 22px;
     height: 22px;
     opacity: 0.9;
+    justify-content: center;
+    align-items: center;
 }
 
 .main .images-and-btns .profile-pic-container input {
